@@ -48,7 +48,7 @@ public class PlayerPositionHandler : MonoBehaviour
     //berguna ketika Player menabrak garis Finish
     public void OnFinish(int Level_Difficulty)
     {
-        GameManager.Instance.ChangeLevel(Level_Difficulty);
+        GameManager.Instance.ChangeLevel(Level_Difficulty); 
     }
 
     //berguna untuk mengubah posisi player
